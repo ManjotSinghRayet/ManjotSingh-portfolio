@@ -1,10 +1,16 @@
 
 
 const navLinks = [
+
+   {
+    name: "Home",
+    link: "#hero",
+  },
   {
     name: "Work",
     link: "#work",
   },
+ 
  
   {
     name: "Skills",
