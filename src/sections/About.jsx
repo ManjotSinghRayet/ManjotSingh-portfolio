@@ -1,37 +1,4 @@
-// const About = () => {
-//   return (
-//     <section
-//       id="about"
-//       className="bg-black text-white pt-50 pb-16 px-6 md:px-12"
-//     >
-//       <div className="max-w-5xl mx-auto text-center">
-//         <h2 className="text-4xl md:text-5xl font-bold mb-6">👨‍💻 About Me</h2>
 
-//         <p className="text-lg md:text-xl leading-relaxed text-gray-300">
-//           I'm <span className="text-white font-semibold">Manjot Singh</span>, a
-//           dedicated front-end developer with a strong interest in creating
-//           intuitive, responsive, and visually engaging digital experiences.
-//         </p>
-
-//         <p className="text-lg md:text-xl leading-relaxed text-gray-300 mt-6">
-//           I've gained practical experience working on real-world projects.
-//           I’ve also completed industrial training at{" "}
-//           <strong>Make My Designs</strong>, where I developed a responsive
-//           e-learning website using modern front-end technologies.
-//         </p>
-
-//         <p className="text-lg md:text-xl leading-relaxed text-gray-300 mt-6">
-//           My approach to development focuses on clean code, smooth user
-//           interactions, and cross-device compatibility. I enjoy turning complex
-//           problems into simple, elegant solutions and continuously seek
-//           opportunities to grow and contribute to impactful digital products.
-//         </p>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default About;
 
 import { useRef, useEffect } from "react";
 import { motion, useScroll, useTransform, useAnimation } from "framer-motion";
